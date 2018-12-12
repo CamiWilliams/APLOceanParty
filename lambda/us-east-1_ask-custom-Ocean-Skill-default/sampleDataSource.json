@@ -1,0 +1,206 @@
+{
+    "oceanPartyData": {
+        "type": "object",
+        "objectId": "opMetadata",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://s3.amazonaws.com/apl-community-code/ocean/dark-water.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://s3.amazonaws.com/apl-community-code/ocean/dark-water.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "Cami's Favorite Ocean Animals",
+        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png"
+    },
+    "oceanListData": {
+        "type": "list",
+        "listId": "opListSample",
+        "totalNumberOfItems": 5,
+        "listPage": {
+            "listItems": [
+                {
+                    "listItemIdentifier": "shark",
+                    "ordinalNumber": 1,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Shark"
+                        },
+                        "secondaryText": {
+                            "type": "PlainText",
+                            "text": "Issa shark!"
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/shark.jpg",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/shark.jpg",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "jellyfish"
+                },
+                {
+                    "listItemIdentifier": "jellyfish",
+                    "ordinalNumber": 1,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Jellyfish"
+                        },
+                        "secondaryText": {
+                            "type": "PlainText",
+                            "text": "Issa jelly!"
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/jellyfish2.jpg",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/jellyfish2.jpg",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "jellyfish"
+                },
+                {
+                    "listItemIdentifier": "seahorse",
+                    "ordinalNumber": 2,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Seahorse"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Issa seahorse!"
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/seahorse.jpg",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/seahorse.jpg",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "seahorse"
+                },
+                {
+                    "listItemIdentifier": "killer-whale",
+                    "ordinalNumber": 3,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Killer Whale"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Issa killer whale!"
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/killer-whale.jpg",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/killer-whale.jpg",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "gorgonzola"
+                },
+                {
+                    "listItemIdentifier": "dolphin",
+                    "ordinalNumber": 1,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Dolphin"
+                        },
+                        "secondaryText": {
+                            "type": "PlainText",
+                            "text": "Issa dolphin"
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/dolphin.jpg",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://s3.amazonaws.com/apl-community-code/ocean/dolphin.jpg",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "dolphin"
+                }
+            ]
+        }
+    }
+}

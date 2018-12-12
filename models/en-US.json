@@ -1,0 +1,177 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ocean party",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "SelectByNumberIntent",
+          "slots": [
+            {
+              "name": "ordinal",
+              "type": "ordinal"
+            },
+            {
+              "name": "cardinal",
+              "type": "cardinal"
+            }
+          ],
+          "samples": [
+            "{cardinal}",
+            "number {cardinal}",
+            "item {cardinal}",
+            "{cardinal} one",
+            "the {cardinal} one",
+            "the {cardinal} item",
+            "video {cardinal}",
+            "{cardinal} video",
+            "the {cardinal} video",
+            "{ordinal}",
+            "number {ordinal}",
+            "item {ordinal}",
+            "{ordinal} one",
+            "the {ordinal} one",
+            "the {ordinal} item",
+            "video {ordinal}",
+            "{ordinal} video",
+            "the {ordinal} video"
+          ]
+        },
+        {
+          "name": "OceanAnimalIntent",
+          "slots": [
+            {
+              "name": "animal",
+              "type": "camisFavoriteOceanAnimals"
+            }
+          ],
+          "samples": [
+            "{animal}",
+            "i pick the {animal}",
+            "i want to know more about {animal}",
+            "tell me about {animal}"
+          ]
+        },
+        {
+          "name": "BeginIntent",
+          "slots": [],
+          "samples": [
+            "show me camis ocean animals",
+            "show me the ocean animals",
+            "show me the list",
+            "i am ready",
+            "start",
+            "begin"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "seahorse"
+              }
+            },
+            {
+              "name": {
+                "value": "jellyfish"
+              }
+            },
+            {
+              "name": {
+                "value": "killer whale"
+              }
+            },
+            {
+              "name": {
+                "value": "dolphin"
+              }
+            },
+            {
+              "name": {
+                "value": "shark"
+              }
+            }
+          ],
+          "name": "camisFavoriteOceanAnimals"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "1st"
+              }
+            },
+            {
+              "name": {
+                "value": "2nd"
+              }
+            },
+            {
+              "name": {
+                "value": "3rd"
+              }
+            },
+            {
+              "name": {
+                "value": "4th"
+              }
+            },
+            {
+              "name": {
+                "value": "5th"
+              }
+            }
+          ],
+          "name": "ordinal"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "1"
+              }
+            },
+            {
+              "name": {
+                "value": "2"
+              }
+            },
+            {
+              "name": {
+                "value": "3"
+              }
+            },
+            {
+              "name": {
+                "value": "4"
+              }
+            },
+            {
+              "name": {
+                "value": "5"
+              }
+            }
+          ],
+          "name": "cardinal"
+        }
+      ]
+    }
+  }
+}

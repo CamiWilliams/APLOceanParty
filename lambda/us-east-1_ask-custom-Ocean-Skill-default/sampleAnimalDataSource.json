@@ -1,0 +1,56 @@
+{
+    "bodyTemplate3Data": {
+        "type": "object",
+        "objectId": "bt3Sample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://s3.amazonaws.com/apl-community-code/ocean/dark-water.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://s3.amazonaws.com/apl-community-code/ocean/dark-water.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "Jellyfish",
+        "image": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://s3.amazonaws.com/apl-community-code/ocean/jellyfish2.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://s3.amazonaws.com/apl-community-code/ocean/jellyfish2.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "textContent": {
+            "title": {
+                "type": "PlainText",
+                "text": "Jellyfish"
+            },
+            "primaryText": {
+                "type": "PlainText",
+                "text": "Jellyfish or sea jellies are the informal common names given to the medusa-phase of certain gelatinous members of the subphylum Medusozoa, a major part of the phylum Cnidaria."
+            }
+        },
+        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png"
+    }
+}
