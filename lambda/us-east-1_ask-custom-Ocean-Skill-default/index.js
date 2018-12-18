@@ -56,6 +56,7 @@ const ListItemPressedHandler = {
           .speak(ANIMAL_DATA[selectedItem].description)
           .addDirective({
             type: 'Alexa.Presentation.APL.RenderDocument',
+            token: 'itemPressed',
             document: require('./selectedAnimal.json'),
             datasources: createAnimalDatasource.call(this, ANIMAL_DATA[selectedItem].title, ANIMAL_DATA[selectedItem].description, ANIMAL_DATA[selectedItem].imgSrc)
           })

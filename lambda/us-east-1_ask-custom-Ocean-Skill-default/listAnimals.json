@@ -243,8 +243,20 @@
                             "numbered": true,
                             "item": [
                                 {
-                                    "type": "FullHorizontalListItem",
-                                    "listLength": "${payload.oceanPartyData.listPage.listItems.length}"
+                                    "type": "TouchWrapper",
+                                    "width": "25vw",
+                                    "height": "80vh",
+                                    "item": {
+                                        "type": "FullHorizontalListItem",
+                                        "listLength": "${payload.oceanPartyData.listPage.listItems.length}"
+                                    },
+                                    
+                                    "onPress": {
+                        "type": "SendEvent",
+                        "arguments": [
+                            "${index}"
+                        ]
+                    }
                                 }
                             ]
                         }
@@ -279,7 +291,18 @@
                             "numbered": true,
                             "item": [
                                 {
-                                    "type": "HorizontalListItem"
+                                    "type": "TouchWrapper",
+                                    "width": "25vw",
+                                    "height": "80vh",
+                                    "item": {
+                                        "type": "HorizontalListItem"
+                                    },
+                                    "onPress": {
+                                        "type": "SendEvent",
+                                        "arguments": [
+                                            "${index}"
+                                        ]
+                                    }
                                 }
                             ]
                         },
